@@ -1,0 +1,149 @@
+Sure, let's go through the code step by step to understand what each part does:
+
+1. Document Type Declaration (DOCTYPE):
+   - The `<!DOCTYPE html>` declaration at the beginning of the document specifies that the document is written in HTML5.
+
+2. HTML Structure:
+   - The `<html>` element is the root element that wraps the entire HTML content.
+   - Inside the `<html>` element, we have the `<head>` and `<body>` elements.
+
+3. `<head>` Section:
+   - The `<head>` section contains metadata and other information about the document but doesn't render any visible content on the web page.
+   - Inside the `<head>`, we have a `<title>` element, which sets the title of the web page displayed in the browser's title bar.
+   - There are no other metadata tags present in this particular example.
+
+4. `<body>` Section:
+   - The `<body>` section contains all the visible content that is displayed on the web page.
+
+5. Background Color:
+   - The `bgcolor` attribute is set on the `<body>` element to change the background color of the web page to "lightyellow."
+
+6. `<form>` Element:
+   - The `<form>` element is used to create an HTML form that can be used to collect user input.
+   - The `action` attribute specifies the URL where the form data will be sent when the form is submitted. In this case, the form will be submitted to "youtube.com."
+   - The `method` attribute is set to "POST," indicating that the form data will be sent using the HTTP POST method.
+
+7. Personal Details Section:
+   - The `<header>` element is used as a section header for the "Personal Details" section.
+   - Several `<label>` elements are used to create labels for various input fields, such as "First Name," "Last Name," "Current Age," etc.
+   - The user is expected to input their first name, last name, age, gender, email address, phone number, and IQ level.
+
+8. Gender Dropdown:
+   - The `<select>` element is used to create a dropdown menu for selecting the gender.
+   - Inside the `<select>`, there are three `<option>` elements that represent the different gender choices ("Male," "Female," "Bisexual").
+
+9. Checkboxes:
+   - Four checkboxes are presented with corresponding labels under the "Check All That Apply" section.
+   - The user can check the boxes that apply to them. The checkboxes don't have labels associated with them explicitly.
+
+10. "Honesty is the Best Policy" Section:
+    - A `<h3>` element is used to display the text "Honesty is the Best Policy."
+    - This section emphasizes the importance of honesty, presumably related to the information provided in the form.
+
+11. "Pick Up Lines" Section:
+    - A `<header>` element is used to display the text "Pick Up Lines."
+    - The user is asked to construct a pick-up line in about 20 words that would attract the person's daughter.
+
+12. `<textarea>` Element:
+    - A `<textarea>` element is used to create a multi-line text input area for the user to enter their pick-up line.
+    - The `name` attribute is set to "message," which will be used to identify this input field when the form is submitted.
+
+13. Submit Button:
+    - A `<button>` element is provided with `type="submit"` to allow the user to submit the form when they have filled in the required information.
+    - The text on the button says "Submit."
+
+
+
+
+<DOCTYPE html>
+    <html>
+        <head>
+        <title>Survey Form</title>
+        
+        </head>
+        <div id="outside">
+        <body bgcolor="lightyellow">
+            <form action="youtube.com" method="POST" style="text-align:center">
+            <h1 style="text-align:center;">Survey Form to Date My Daughter</h1>
+            <p style="text-align:center"><strong>Note</strong>: Form is to be completed at least <strong>21 days</strong> prior to date</p>
+            <hr>
+            <br>
+            <div>
+                
+            </div>
+            <header><strong>Personal Details</strong></header>
+            <br>
+            <label>First Name</label>
+            <input type="text" placeholder="Enter Your First Name"></input>
+            <div></div>
+            <br>
+            <label>Last Name<label>
+                <input type="text" placeholder="Enter Your Last Name"></input>
+                <div></div>
+                <br>
+                <label>Current Age</label>
+                <input type="number" value="30"></input>
+                <div></div>
+                <br>
+                <label>Gender<label>
+                    <select option="Gender" name="Gender"></option>
+                        <option value="Male" name="Male">Male</option>
+                            <option value="Female" name="Female">Lesbian</option>
+                            <option value="Bisexual">Bisexual</ooption>
+                            </select>
+                    <br>
+                    <div></div>
+                    <br>
+                    <label>Email Address<label>
+                        <input type="email" placeholder="Please Enter Your Email"></input>
+                        <div></div>
+                        <br>
+                        <label>Phone Number<label>
+                            <input type="text" placeholder="Your Phone Number"></input>
+                            <div></div>
+                            <br>
+                            <label>IQ Level</label>
+                            <input type="number" placeholder="IQ LEVEL"></input>
+                            <div></div>
+                            <br>
+                            <hr>
+                            <br>
+                           <header><strong>Check All That Apply</strong></header>
+                           <div></div>
+                           <br>
+                               <label>I love spending money</label>
+                    
+                         <input type="checkbox"></input>
+                         <div></div>
+                         <br>
+                           <label>I work full time</label>
+                           <input type="checkbox"></input>
+                           <div></div>
+                           <br>
+                           <label>I have tattoos and piercings<label>
+                               <input type="checkbox"></input>
+                               <div></div>
+                               <br>
+                               <label>I earn more $10000 a month</label>
+                               <input type="checkbox"></input>
+                               <div></div>
+                               <h3>Honesty is the Best Policy<h3>
+                                <div></div>
+                                <br>
+                                <hr>
+                                <br>
+                                <header>Pick Up Lines<header>
+                                    <p>In about 20 words construct a pick up line which will atract my daughter</p>
+                                    <label>Pick up Lines</label>
+                                    <textarea type="text" name="message"></textarea>
+                                    
+                                <div></div>
+    
+                               <button type="Submit">Submit</button>
+                               <br>
+                               
+                            
+                                    
+                                   
+        </body>
+    </html>
