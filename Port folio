@@ -1,0 +1,752 @@
+//html//
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Poppins&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#" class="active">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">SKILL</a>
+            <a href="#">PORTFOLIO</a>
+            <a href="#">CONTACT</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home_content">
+            <h3>Hello, It's Me</h3>
+            <h1>Yuvraj Singh</h1>
+            <h3>And I'm a Student of <span class="text">MAHARAJA AGRASEN INSTITUTE OF TECHNOLOGY</span></h3>
+            <p>I am pursuing Btech from this college. My major interest is in Software Engineering.</p>
+            <p>Also, I do like making Web Projects.</p>
+            <div class="home-sci">
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            </div>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+        <div class="image-container">
+            <img src="my.png" alt="My Image">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About <span>Me</span></h2>
+                <h4>Java Programmer</h4>
+                <p>
+                    As a Java programmer, I take pride in my ability to leverage Java's versatile and robust features to
+                    create innovative and efficient solutions. The object-oriented paradigm of Java has empowered me to
+                    design elegant and modular code, making it easier to maintain and collaborate with fellow developers
+                    on large-scale projects.
+
+                    The strong type system in Java has been a game-changer for me. It catches errors at compile-time,
+                    allowing me to detect and fix potential issues early in the development process. This not only saves
+                    time but also ensures that my code is more reliable and less prone to bugs.</p>
+
+                <p>One of the most rewarding aspects of being a Java programmer is the opportunity to work on complex
+                    projects. Java's extensive libraries and frameworks provide me with the tools to tackle challenging
+                    tasks with confidence. Whether it's building web applications, developing backend systems, or
+                    creating mobile applications, Java has proven to be a reliable and powerful language.
+
+                    Throughout my career, I've encountered various debugging challenges. Each experience has been a
+                    valuable learning opportunity, teaching me the art of meticulous problem-solving. I've learned to
+                    approach issues systematically, analyze code, and identify the root causes of problems. This skill
+                    has made me a more resilient and competent programmer, allowing me to deliver high-quality software
+                    that exceeds user expectations.</p>
+
+                <p>In addition to my technical skills, I believe in the importance of effective communication and
+                    teamwork. Collaboration is key to successful software development, and I enjoy working with diverse
+                    teams to bring ideas to life.
+
+                    As a Java programmer, I am continuously learning and exploring new technologies to stay up-to-date
+                    with the ever-evolving landscape of software development. I am passionate about creating meaningful
+                    and impactful software solutions that make a positive difference in people's lives.
+
+                    In conclusion, my journey as a Java programmer has been filled with joy, challenges, and growth.
+                    Java's versatility, coupled with my passion for problem-solving, has shaped me into a dedicated and
+                    skilled software developer ready to take on the next exciting project and contribute to the world of
+                    technology.</p>
+
+                <a href="#" class="btn-box">More About Me</a>
+            </div>
+        </div>
+        <!-- <div class="about-img">
+            <img src="my.png" alt="About Image">
+        </div> -->
+    </section>
+
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My Major <span>Skills</span></h1>
+                <div class="services-list">
+                    <div class="service-item">
+                        <div>
+                            <br>
+                            <i class='bx bxl-java' style='color:#00eeff'></i>
+                            <h2>Java Programming(Data Structures and Algorithms)</h2>
+                            <p>As a Java programmer, I find immense joy and fulfillment in my role as a software
+                                developer.
+                                Java, with its versatile and robust features, has become the cornerstone of my
+                                programming
+                                journey. Its object-oriented paradigm allows me to design elegant, modular, and
+                                maintainable
+                                code, ensuring scalability and ease of collaboration with fellow developers.</p>
+                            <a href="#" class="read">Learn More</a>
+                            <!-- <div class="links">
+                                <a href="https://youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q"
+                                    class="read">Source1</a>
+                                <a href="https://youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q"
+                                    class="read">Source2</a>
+                            </div> -->
+
+                        </div>
+                        <div>
+                            <i class='bx bxl-html5' style='color:#00eeff'></i>
+                            <i class='bx bxl-css3' style='color:#00eeff'></i>
+                            <i class='bx bxl-css3' style='color:#00eeff'></i>
+                            <h2>Frontend Developer</h2>
+                            <p>As a fresher in the field of Front-End Development, I am eager to embark on an exciting
+                                journey of creativity and innovation. Armed with a strong foundation in HTML, CSS, and
+                                JavaScript, I am ready to bring fresh ideas and a passion for design to every project. I
+                                am committed to continuous learning and honing my skills to become a proficient and
+                                valuable member of any development team. I am excited to contribute my creativity and
+                                enthusiasm to create engaging and user-friendly web experiences.</p>
+                            <a href="#" class="read">Learn More</a>
+                            <!-- <div class="links">
+                                <a href="https://youtube.com/playlist?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"
+                                    class="read">Source1</a>
+                                <a href="https://youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg"
+                                    class="read">Source2</a>
+                            </div> -->
+
+                        </div>
+                        <div>
+                            <i class='bx bx-code' style='color:#00eeff'></i>
+                            <h2>java Swift</h2>
+                            <p>As a fresher in Java Swift development, I am thrilled to dive into the world of mobile
+                                app development. Java Swift offers a powerful and versatile platform for creating
+                                innovative and user-friendly mobile applications. With a solid understanding of Java
+                                programming concepts and a desire to excel in mobile app development, I am ready to take
+                                on new challenges and learn from experienced developers.
+
+                                I am eager to leverage my skills in Java Swift to build intuitive and seamless mobile
+                                apps that cater to the needs of users. As a Java Swift developer, I am dedicated to
+                                writing clean, efficient, and maintainable code to ensure the success of each project I
+                                undertake.</p>
+                            <a href="#" class="read">Learn More</a>
+                            <!-- <div class="links">
+                                <a href="https://youtube.com/playlist?list=PLjJmj2FyqToaShAsuiW57BFvAkgMpaaNk"
+                                    class="read">Source1</a>
+                                <a href="https://youtube.com/playlist?list=PL4dbR4j6xH1tNUNcoEAo9mT6MH1fQzWTD"
+                                    class="read">Source2</a>
+                            </div> -->
+
+                        </div>
+                        <div>
+                            <i class='bx bx-code-curly' style='color:#00eeff'></i>
+                            <h2>Spring Frameworks</h2>
+                            <p>Spring Framework is a powerful and popular open-source Java-based framework used for
+                                building robust and scalable applications. It provides a comprehensive set of features
+                                that facilitate the development of enterprise-grade applications, making it one of the
+                                leading choices among developers.
+
+                                <br>
+
+                                Overall, Spring Framework simplifies the development process, promotes best practices,
+                                and enhances the maintainability and scalability of Java applications, making it a
+                                preferred choice for both small and large-scale projects.
+                            </p>
+                            <a href="#" class="read">Learn More</a>
+                            <!-- <div class="links">
+                                 <a href="https://youtube.com/playlist?list=PLjJmj2FyqToaShAsuiW57BFvAkgMpaaNk"
+                                     class="read">Source1</a>
+                                 <a href="https://youtube.com/playlist?list=PL4dbR4j6xH1tNUNcoEAo9mT6MH1fQzWTD"
+                                     class="read">Source2</a>
+                             </div> -->
+
+                        </div>
+
+                        <div>
+                            <i class='bx bx-code-curly' style='color:#00eeff'></i>
+                            <h2>Computer Network</h2>
+                            <p>
+                                Computer networks are essential infrastructures that connect various devices, systems,
+                                and users to facilitate data exchange and communication. They play a crucial role in
+                                today's interconnected world, enabling seamless access to information and resources
+                                across the globe. Here's a short note on computer networks:
+
+                                A computer network is a collection of interconnected devices, such as computers,
+                                servers, routers, switches, and other hardware components, linked together using wired
+                                or wireless communication channels. The primary purpose of a computer network is to
+                                enable data sharing, resource sharing, and communication between devices and users.
+                                Computer networks have revolutionized how we access information, communicate, and
+                                conduct business. They form the backbone of modern technologies, enabling us to stay
+                                connected and share data globally. As technology continues to advance, computer networks
+                                will play an increasingly vital role in shaping the future of communication and
+                                information exchange.</p>
+                            <a href="#" class="read">Learn More</a>
+                            <!-- <div class="links">
+                                 <a href="https://youtube.com/playlist?list=PLjJmj2FyqToaShAsuiW57BFvAkgMpaaNk"
+                                     class="read">Source1</a>
+                                 <a href="https://youtube.com/playlist?list=PL4dbR4j6xH1tNUNcoEAo9mT6MH1fQzWTD"
+                                     class="read">Source2</a>
+                             </div> -->
+
+                        </div>
+
+                    </div>
+                </div>
+    </section>
+    <h1 class="sub-titles">More of My<span>Skills</span></h1>
+    <section>
+        <div class="container1" id="Skills">
+            <h1 class="heading1">Techinical Skills</h1>
+            <div class="Technical_bars">
+                <div class="bar"><i class='bx bx-code-block' style='color: #147bbc;'></i>
+                    <div class="info">
+                        <span>C Programming</span>
+                    </div>
+                    <div class="progress-line c">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i class='bx bxl-python' style='color:#428b4d'></i>
+                    <div class="info">
+                        <span>Python</span>
+                    </div>
+                    <div class="progress-line Python">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i class='bx bxl-netlify' style='color:#bc8114'></i>
+                    <div class="info">
+                        <span>My SQL</span>
+                    </div>
+                    <div class="progress-line mysql">
+                        <span></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+        <div class="container1">
+            <h1 class="heading1">Professional Skills</h1>
+            <div class="radial-bars">
+
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">90%</div>
+                <div class="text">creativity</div>
+            </div>
+            <div class="radia-bars">
+
+                <svg x="0px" y="0px" viewBox="1 1 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">90%</div>
+                <div class="text">communication</div>
+            </div>
+            <div class="radia-bars">
+
+                <svg x="0px" y="0px" viewBox="1 1 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">75%</div>
+                <div class="text">Problem Solving</div>
+            </div>
+            <div class="radia-bars">
+
+                <svg x="0px" y="0px" viewBox="1 1 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">90%</div>
+                <div class="text">Team</div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+//css//
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Oswald', 'Poppins', sans-serif;
+    color: #ededed;
+    background-color: #05082e;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    padding: 10px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: #0ef;
+}
+
+/* Home section styles */
+section.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 40px;
+}
+
+section.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 2rem;
+    padding: 40px;
+}
+
+.home_content {
+    max-width: 800px;
+    margin-right: 2rem;
+}
+
+.home_content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+    animation: slideTop 1s ease-in-out;
+}
+
+.home_content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #0ef;
+    animation: slideRight 1s ease-in-out;
+}
+
+.home_content h2 {
+    font-weight: 700;
+    color: #0ef;
+}
+
+.home_content p {
+    font-size: 20px;
+    color: #ededed;
+    margin-bottom: 20px;
+    animation: slideLeft 1s ease-in-out;
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    font-size: 24px;
+    color: #0ef;
+    text-decoration: none;
+    transition: .5s ease;
+    margin-right: 15px;
+    animation: slideLeft 1s ease-in-out;
+}
+
+.home-sci a:hover {
+    background: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 22px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    animation: slideTop 1s ease-in-out;
+}
+
+.btn-box:hover {
+    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+/* About section styles */
+section.about {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-end;
+    /* gap: 1.5rem; */
+    padding: -10px;
+}
+
+section.about {
+    min-height: 100vh;
+}
+
+.about-content {
+    color: #bcbdc5;
+    position: relative;
+    z-index: 1;
+    padding: 2rem;
+    /* background-color: #080a35; */
+    border-radius: 8px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    transition: transform 0.3s ease;
+}
+
+.about-section:hover .about-content {
+    transform: translateY(-10px);
+}
+
+.about-text h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #0ef;
+}
+
+.about-text h2 span {
+    color: #0ef;
+}
+
+.about-text p {
+    font-size: 18px;
+    /* width: 1500px; */
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+#services {
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+}
+
+.sub-title span {
+    color: #0ef;
+}
+
+.container {
+    padding: 90px;
+}
+
+.service-item a {
+    color: #0ef;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.services-list div {
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 20px #012290f7,
+        1px 1px 40px #0053b8f7;
+}
+
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.services-list div h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services-list div a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.read {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 1s;
+    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+}
+
+.read:hover {
+    background: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+.services-list div:hover {
+    transform: translateY(-10px);
+}
+
+/* Add this rule to set the text color */
+.Technical_bars .bar .info span {
+    color: #fff;
+    /* Set the desired text color here */
+}
+
+/* Rest of your existing CSS code */
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container1 {
+    width: 600px;
+    height: 500px;
+    padding: 75px 90px;
+    margin-left: 120px;
+}
+
+.heading1 {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+}
+
+.bar {
+    font-size: 23px;
+}
+
+.Technical_bars .bar {
+    margin-top: 40px 0;
+}
+
+.Technical_bars .bar:first-child {
+    margin-top: 0;
+}
+
+.Technical_bars .bar:last-child {
+    margin-bottom: 0;
+}
+
+.Technical_bars .bar .info {
+    color: #0ef;
+    margin-bottom: 5px;
+}
+
+.Technical_bars .bar .info span {
+    color: #0ef;
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+    /* Add the text color here */
+    /* color: #fff;  */
+}
+
+.Technical_bars .bar .progress-line {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: #000;
+    animation: animate 1s cubic-bezier(1, 0, 0, 5) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.Technical_bars .bar .progress-line span {
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0, 5) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.Technical_bars .bar .progress-line.c span {
+    width: 90%;
+}
+
+.Technical_bars .bar .progress-line.Python span {
+    width: 70%;
+}
+
+.Technical_bars .bar .progress-line.mysql span {
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Image container styles */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-container img {
+    max-width: 1000px;
+    height: 700px;
+    border-radius: 10px;
+}
+
+/* Animations */
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
